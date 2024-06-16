@@ -17,6 +17,8 @@ body {
     flex-wrap: wrap;
     line-height: 35px;
     letter-spacing: 1.1px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .header {
@@ -92,4 +94,24 @@ a {
 
 a:hover {
     color: blueviolet;
+}
+
+@media (max-width:600px) {
+    .info {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    
+    .how {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+    }
+    
+    .homestay-owner {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 25px;
+    }
 }
